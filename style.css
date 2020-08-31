@@ -153,9 +153,7 @@ a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
-}
+
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
@@ -252,9 +250,6 @@ a:hover {
     color: rgba(0, 0, 0, 1);
 }
 
-.l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
-}
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
@@ -346,9 +341,7 @@ a:hover {
     background: transparent!important;
 }
 
-.navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
-    width: 26px;
+ 26px;
 }
 
 .nav-invert .navbar .nav {
