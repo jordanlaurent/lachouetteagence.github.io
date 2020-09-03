@@ -3,10 +3,11 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
+li{list-style: none;}
+.margin{padding: 10px;}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -88,6 +89,7 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+    opacity: 0.40;
 }
 
 .texture-paper::before {
@@ -768,7 +770,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
