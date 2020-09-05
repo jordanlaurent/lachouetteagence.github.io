@@ -8892,6 +8892,9 @@ a {
 }
 
 p {font-size: 16px;}
+.bgc-dark-slate-blue{
+  background-color: rgb(0, 0, 255);
+}
 
 .tight-width-whitespace {
   max-width: 600px;
