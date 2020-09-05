@@ -8891,9 +8891,7 @@ a {
   margin: auto auto auto auto;
 }
 
-p {
-  font-size: 16px;
-}
+p {font-size: 16px;}
 
 .tight-width-whitespace {
   max-width: 600px;
