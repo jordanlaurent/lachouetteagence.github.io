@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
 }
-
+element.style{padding-left: 0px;}
 li{list-style: none;}
 .margin{padding: 10px;}
 
@@ -857,6 +857,7 @@ h4 {
     .container {
         width: 100%;
     }
+    .social{display: flex; justify-content: space-between;}
     .b-parallax {
         background-attachment: scroll;
     }
