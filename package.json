@@ -1,7 +1,6 @@
 {
   "name": "lachouetteagence.github.io",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:./css/style.css"
@@ -18,5 +17,6 @@
   "homepage": "https://github.com/jordanlaurent/lachouetteagence.github.io#readme",
   "dependencies": {
     "jquery": "^3.5.1"
-  }
+  },
+  "description": ""
 }

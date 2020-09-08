@@ -15,6 +15,11 @@ body {
   margin: 0;
 }
 
+footer {
+  position: relative;
+  margin-bottom: 0px;
+}
+
 article,
 aside,
 details,
@@ -8221,12 +8226,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+element.style {
+  padding-left: 0px;
+}
+
 li {
   list-style: none;
 }
 
 .margin {
   padding: 10px;
+}
+
+ul {
+  padding-left: 1px;
 }
 
 a,
@@ -8281,7 +8294,6 @@ a:hover {
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
-.bg-t-edge,
 .bg-b-edge,
 .bg-tl-edge,
 .bg-bl-edge,
@@ -8296,10 +8308,6 @@ a:hover {
 
 .bg-repeat {
   background: repeat;
-}
-
-.bg-t-edge {
-  background: top no-repeat;
 }
 
 .bloc-bg-texture::before {
@@ -9042,7 +9050,6 @@ h4 {
   background-image: linear-gradient(rgba(255, 166, 0, 0.5), rgba(243, 243, 237, 0.5)), url("../img/la-chouette-agence-banniere.jpg");
 }
 
-
 @media (max-width: 1024px) {
   .bloc {
     padding-left: 20px;
@@ -9116,7 +9123,6 @@ h4 {
   }
 
   h1,
-h2,
 h3,
 h4,
 h5,
@@ -9274,6 +9280,10 @@ p,
   .blocsapp-device-iphone5 img {
     width: 180px;
     height: 320px;
+  }
+
+  .bg-banniere {
+    background-image: linear-gradient(rgba(255, 166, 0, 0.5), rgba(243, 243, 237, 0.5)), url("../img/la-chouette-agence mobile.png");
   }
 }
 @media (max-width: 400px) {
