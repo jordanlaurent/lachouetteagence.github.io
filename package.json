@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jordanlaurent/lachouetteagence.github.io/issues"
   },
-  "homepage": "https://github.com/jordanlaurent/lachouetteagence.github.io#readme"
+  "homepage": "https://github.com/jordanlaurent/lachouetteagence.github.io#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
 }
