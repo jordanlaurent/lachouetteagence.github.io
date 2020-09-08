@@ -9051,6 +9051,10 @@ h4 {
 }
 
 @media (max-width: 1024px) {
+  .bg-banniere {
+    background-image: linear-gradient(rgba(255, 166, 0, 0.5), rgba(243, 243, 237, 0.5)), url("../img/la-chouette-agence mobile.png");
+  }
+
   .bloc {
     padding-left: 20px;
     padding-right: 20px;
@@ -9280,10 +9284,6 @@ p,
   .blocsapp-device-iphone5 img {
     width: 180px;
     height: 320px;
-  }
-
-  .bg-banniere {
-    background-image: linear-gradient(rgba(255, 166, 0, 0.5), rgba(243, 243, 237, 0.5)), url("../img/la-chouette-agence mobile.png");
   }
 }
 @media (max-width: 400px) {
