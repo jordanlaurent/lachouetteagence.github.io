@@ -857,7 +857,6 @@ h4 {
     .container {
         width: 100%;
     }
-    .social{display: flex; justify-content: space-between;}
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1019,6 +1018,9 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .bg-banniere {
+        background-image:linear-gradient(rgba(255, 166, 0, 0.5), rgba(243, 243, 237, 0.5)), url("../img/la-chouette-agence mobile.png");
     }
 }
 

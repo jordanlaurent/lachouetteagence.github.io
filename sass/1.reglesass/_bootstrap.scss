@@ -15,7 +15,7 @@ html {
 body {
     margin: 0
 }
-
+footer{position: relative; margin-bottom: 0px;}
 article,
 aside,
 details,
@@ -5115,6 +5115,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
     }
+    
 }
 
 .container-fluid>.navbar-collapse,
