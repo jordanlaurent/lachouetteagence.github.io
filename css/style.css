@@ -9299,7 +9299,8 @@ p,
  */
 @font-face {
   font-family: "FontAwesome";
-  src: src("../fonts/fontawesome-webfonts.eot") format("embedded-opentype"), src("../fonts/fontawesome-webfonts.woff2") format("woff2"), src("../fonts/fontawesome-webfonts.woff") format("woff"), src("../fonts/fontawesome-webfonts.ttf") format("truetype"), src("../fonts/fontawesome-webfonts.svg") format("svg");
+  src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
+  src: url("../fonts/fontawesome-webfont.otf") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2") format("woff2"), url("../fonts/fontawesome-webfont.woff") format("woff"), url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -12336,7 +12337,7 @@ p,
 @font-face {
   font-family: et-line;
   src: url(../fonts/et-line.eot);
-  src: url(../fonts/et-line.eot?#iefix) format("embedded-opentype"), url(../fonts/et-line.woff) format("woff"), url(../fonts/et-line.ttf) format("truetype"), url(../fonts/et-line.svg#et-line) format("svg");
+  src: url(../fonts/et-line.eot) format("embedded-opentype"), url(../fonts/et-line.woff) format("woff"), url(../fonts/et-line.ttf) format("truetype"), url(../fonts/et-line.svg) format("svg");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
