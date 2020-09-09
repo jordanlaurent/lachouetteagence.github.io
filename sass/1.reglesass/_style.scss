@@ -812,6 +812,9 @@ h4 {
 .bg-banniere {
     background-image:linear-gradient(rgba(255, 166, 0, 0.5), rgba(243, 243, 237, 0.5)), url("../img/la-chouette-agence-banniere.jpg");
 }
+.bg-presentation{
+    background-image:linear-gradient(rgba(255, 166, 0, 0.5), rgba(243, 243, 237, 0.5)), url("../img/image-de-presentation.jpg");
+}
 @media (max-width: 1024px) {
 
     .bloc {
@@ -827,6 +830,9 @@ h4 {
     }
     .bg-banniere {
         background-image:linear-gradient(rgba(255, 166, 0, 0.5), rgba(243, 243, 237, 0.5)), url("../img/la-chouette-agence-banniere-mobile.jpg");
+    }
+    .bg-presentation{
+        background-image:linear-gradient(rgba(255, 166, 0, 0.5), rgba(243, 243, 237, 0.5)), url("../img/image-de-presentation-mobile.jpg");
     }
 }
 
