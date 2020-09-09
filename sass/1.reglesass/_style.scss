@@ -1,11 +1,4 @@
-@media (min-width: 1024px) {
-.bg-banniere {
-    background-image:linear-gradient(rgba(255, 166, 0, 0.5), rgba(243, 243, 237, 0.5)), url("../img/la-chouette-agence-banniere.jpg");
-}}
-@media (max-width: 1024px) {
-    .bg-banniere {
-        background-image:linear-gradient(rgba(255, 166, 0, 0.5), rgba(243, 243, 237, 0.5)), url("../img/la-chouette-agence-banniere-mobile.jpg");
-    }}
+
 body {
     margin: 0;
     padding: 0;
@@ -816,8 +809,9 @@ h4 {
 .bg-lines-h2-bg {
     background-image: url("../img/lines-h2-bg.png");
 }
-
-
+.bg-banniere {
+    background-image:linear-gradient(rgba(255, 166, 0, 0.5), rgba(243, 243, 237, 0.5)), url("../img/la-chouette-agence-banniere.jpg");
+}
 @media (max-width: 1024px) {
 
     .bloc {
@@ -830,6 +824,9 @@ h4 {
     .bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
         padding-right: 0;
+    }
+    .bg-banniere {
+        background-image:linear-gradient(rgba(255, 166, 0, 0.5), rgba(243, 243, 237, 0.5)), url("../img/la-chouette-agence-banniere-mobile.jpg");
     }
 }
 
