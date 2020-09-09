@@ -60,15 +60,7 @@ a:hover {
     padding: 20px 50px;
 }
 
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat {
     -webkit-background-size: auto!important;
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
@@ -332,7 +324,10 @@ a:hover {
 .nav > li a:focus {
     background: transparent;
 }
-
+.navbar-toggle .icon-bar{
+    background-color: rgba(0, 0, 0, .5);
+    width: 26px;
+}
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
