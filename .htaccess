@@ -4,6 +4,8 @@ ExpiresActive On
 ExpiresByType image/jpg "access 1 year"
 ExpiresByType image/jpeg "access 1 year"
 ExpiresByType image/gif "access 1 year"
+ExpiresByType css "access 15 day"
+ExpiresByType javascript "access 15 day"
 ExpiresByType image/png "access 1 year"
 ExpiresByType text/x-javascript "access 1 month"
 ExpiresByType image/x-icon "access 1 year"
