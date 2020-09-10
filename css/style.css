@@ -3091,8 +3091,8 @@ body {
 }
 
 footer {
-  position: relative;
-  margin-bottom: 0px;
+  position: fixed;
+  bottom: 0px;
 }
 
 article,
@@ -3104,6 +3104,7 @@ footer,
 header,
 hgroup,
 main,
+footer,
 menu,
 nav,
 section,
@@ -4524,8 +4525,8 @@ img {
 
 .carousel-inner > .item > a > img,
 .carousel-inner > .item > img,
-.img-responsive,
 .thumbnail a > img,
+.img-responsive,
 .thumbnail > img {
   display: block;
   max-width: 100%;
@@ -5385,7 +5386,6 @@ pre code {
 .col-sm-3,
 .col-sm-4,
 .col-sm-5,
-.col-sm-6,
 .col-sm-7,
 .col-sm-8,
 .col-sm-9 {

@@ -15,7 +15,7 @@ html {
 body {
     margin: 0
 }
-footer{position: relative; margin-bottom: 0px;}
+footer{position: fixed; bottom: 0px;}
 article,
 aside,
 details,
@@ -25,6 +25,7 @@ footer,
 header,
 hgroup,
 main,
+footer,
 menu,
 nav,
 section,
@@ -1432,14 +1433,13 @@ img {
 
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
-.img-responsive,
 .thumbnail a>img,
+.img-responsive,
 .thumbnail>img {
     display: block;
     max-width: 100%;
     height: auto
 }
-
 .img-rounded {
     border-radius: 6px
 }
@@ -2297,7 +2297,6 @@ pre code {
     .col-sm-3,
     .col-sm-4,
     .col-sm-5,
-    .col-sm-6,
     .col-sm-7,
     .col-sm-8,
     .col-sm-9 {
